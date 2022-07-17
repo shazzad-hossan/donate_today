@@ -1,0 +1,347 @@
+/* Google Font (Bonus Part) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section  */
+.header-bg {
+    background-image: url(../img/main-bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-banner-area {
+    padding: 200px 260px;
+    text-align: center;
+}
+
+.top-banner-area h1 {
+    font-size: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.top-banner-area p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 2px 100px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #4eb66e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Donation Amount (Requerement Part) */
+.counter-amount {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.donate-area {
+    text-align: center;
+    padding: 30px 400px;
+}
+
+.donate-area h1 {
+    font-size: 45px;
+    color: #4eb66e;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.donate-area p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: dimgray;
+    padding-bottom: 20px;
+}
+
+.counter {
+    text-align: center;
+    margin-left: 20%;
+}
+
+.counter .card {
+    color: #4eb66e;
+    border-radius: 5px;
+    font-size: 30px;
+    float: left;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
+    margin-bottom: 120px;
+    margin-left: 10px;
+}
+
+.card:hover {
+    background-color: #4eb66e;
+    color: white;
+    transition: all 0.2s ease-in;
+
+}
+
+.active {
+    border: 5px solid #4eb66e;
+    border-radius: 8px;
+
+}
+
+.amount {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 50px;
+}
+
+.amount input {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid dimgray;
+
+}
+
+#donate-button {
+    margin-left: 175px;
+}
+
+/* Donation Plan (Requerement Part) */
+.plan-area {
+    text-align: center;
+    padding: 50px 400px;
+}
+
+.plan-area h1 {
+    font-size: 45px;
+    color: #4eb66e;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.plan-area p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: dimgray;
+}
+
+.why-donate {
+    display: flex;
+    height: 100%;
+    padding: 60px 60px;
+    margin-bottom: 150px;
+}
+
+.active {
+    background-color: aliceblue;
+}
+
+.donation-sector {
+    width: 30%;
+    padding: 80px 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: bisque;
+
+}
+
+.donation-sector h1 {
+    font-family: 'Inter', sans-serif;
+    color: #4eb66e;
+}
+
+.donation-sector p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: dimgray;
+}
+
+/* Our Work (Bonus Part) */
+.work-area-title {
+    text-align: center;
+    padding: 50px 400px;
+}
+
+.work-area-title h1 {
+    font-size: 45px;
+    color: #4eb66e;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.work-area-title p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: dimgray;
+}
+
+.work-area-title {
+    text-align: center;
+    padding: 50px 400px;
+}
+
+.work-area-title h1 {
+    font-size: 45px;
+    color: #4eb66e;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.work-area-title p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: dimgray;
+}
+
+.work-area {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.work-content {
+    width: 23%;
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 60px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.work-img {
+    width: 100%;
+    height: 200px;
+}
+
+.work-text {
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.work-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #4eb66e;
+}
+
+.work-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: dimgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contact Section (Bonus)  */
+.contact-area {
+    text-align: center;
+    padding: 40px 400px;
+
+}
+
+.contact-content h1 {
+    margin-left: 60px;
+    text-align: center;
+    font-size: 45px;
+    color: #4eb66e;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-content p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: dimgray;
+}
+
+.fields {
+    background-color: rgb(255 89 89 / 8%);
+    width: 100%;
+    padding: 20px;
+}
+
+.fields input {
+    border: none;
+    text-decoration: none;
+    width: 50%;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    outline: none;
+    background-color: #D9D9D9;
+}
+
+/* Footer Section (Requred) */
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.footer h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #4eb66e;
+}
+
+.footer p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: dimgray;
+}
+
+.social-icon {
+    padding-top: 30px;
+    width: 40px;
+    padding-left: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.social-icon:hover {
+    padding: 10px 10px;
+}
